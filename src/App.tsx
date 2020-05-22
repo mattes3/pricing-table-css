@@ -17,12 +17,13 @@ const useStyles = makeStyles((theme: Theme) =>
             flexDirection: 'row',
             backgroundColor: 'rgb(242, 242, 242)',
             justifyContent: 'center',
-            padding: '2rem'
+            padding: theme.spacing(4)
         },
         productCard: {
             display: 'flex',
             flexDirection: 'column',
-            marginRight: '1rem',
+            marginRight: theme.spacing(2),
+            paddingBottom: theme.spacing(2),
             justifyContent: 'space-between'
         },
         productHeader: {
